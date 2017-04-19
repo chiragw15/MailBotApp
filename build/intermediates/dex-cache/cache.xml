@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_b04cdd38ae9fb4b0a0fabe2e4d5b69692a166320.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/preference-v14/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6cdbe967aa2b693a0a1f6859091794601c087e5b">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-preference-v14-25.0.1_345c489605fd099777a8bf325ba17b3d3e286910.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_2ea5785037789c724e50014d7450ac39bf1ca9c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-beta-1.2.2_63d678b75b50ceee8aebacaf17f6d94594a91f6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_a0487ef7cc990c08921f9004f60773c2adbc1ca4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test-rules-0.5_3db2a25004df60083631282737403c3aaddb7393.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.10/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-answers-1.3.10_f3e89af51a5449dfb340af0d3f16ccb5d187ce5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/io.realm/android-adapters/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="821de897b9350f9cb17f5f195a59dcf454bdba3d">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/io.realm-android-adapters-1.3.0_f167ec694d5cd2dc3cd786b9a9c0730c62fe1b00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_e287b040336e3618d1cbbeb623103c3e4a65278f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.1.0_6a495dbeb3a7302a6be976bc988f6f2e6c1988df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_3c19d2a2142b782bf27b2340ca45d66a286c78d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.leocardz/link-preview/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d2ed0f59916b5b7ed1cfc607d13cafb22371bd0">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.leocardz-link-preview-1.2.1_a37a2727d666e0bf6dd94dca498594b5638099d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/okio-1.8.0_72f8a8796808dcad8e9a603d54495daf54efc862.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-beta-1.2.2_e481e44f2e3e303d80e5d595bd0ad95a3d77fae6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/2.0.2/e97f64258ef6d0daeb26b3b88988215e0b14d9b2/realm-annotations-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e97f64258ef6d0daeb26b3b88988215e0b14d9b2">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/realm-annotations-2.0.2_adfda66fe2c1b8afc3f75579a867bb2a754f6a82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_02a01aac08976545d8336a5331c681415118e4f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.3/65fd012581ded67bc20945d85c32b4598c3a9cf1/jsoup-1.8.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65fd012581ded67bc20945d85c32b4598c3a9cf1">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/jsoup-1.8.3_005381bda6089ebd44114bb4be6f249a58b367fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.2.5/e135072797f494a3b6cb10640dd8c6495261b9ac/MPAndroidChart-v2.2.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e135072797f494a3b6cb10640dd8c6495261b9ac">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v2.2.5_a3287bf1ca60b6cb0157876bbf4b87ccf8591278.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_8a40c8e29bd7e4782f9bc8a0283a47d51eea5f68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_eb6206d46b9c2ec28a99ef5c15c1b04c197025d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_df54a57bb14ea4fd87499a77ba9a2dbaf78d6949.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/glide-3.7.0_a312041919c39a242d8ec1df3f42f3ee803787eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/io.realm/realm-android-library/2.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="716030a2499afe39ca5b9c8bc09bc868ca372206">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/io.realm-realm-android-library-2.0.2_95644473f1642b5700c0ce943e9893f906d279b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/androidTest/debug/jsr305-2.0.1_bfcecb6b663f476d091536a2d6b592426c9f5608.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_9a404b38a17cc8e6efe71da8d2d993d40857ce0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_8ff3e17f13f808702c08598449720f9443a56947.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.android.support/preference-v14/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6cdbe967aa2b693a0a1f6859091794601c087e5b">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.android.support-preference-v14-25.0.1_6e379475b325072e9424f8b3c09b25c75825dfe7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/gson-2.7_3567848386b63b7961afda53ea5b0733cc501eb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="633643588a572deb831c940072862030aec5fc60">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.takisoft.fix-preference-v7-25.0.1.0_c89ba7adda1c766c6d35fd35ba3a01c2b229b5e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/androidTest/debug/javawriter-2.1.1_bb42c36e92472eef20f314e970d3d04603f46e5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.6.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-2.6.5_089a4e8a4069442c7f2d7436a0d5dd8aab8d51ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_9af89afdaf29b6d10578ac34ff99b1cac772ea5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/java-sdk/3.3.1/dce8eed9cb740d2370d1bcd5bf56f4f0bca1ca04/java-sdk-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dce8eed9cb740d2370d1bcd5bf56f4f0bca1ca04">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/java-sdk-3.3.1_7c8778cdea41ba447d2df77642d39c0d16039e2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.14/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/io.fabric.sdk.android-fabric-1.3.14_10db179d6f7b28bce41d2fa42802d2ce8787a909.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.getkeepsafe.relinker-relinker-1.2.2_64f18be97bfb8bc57c628d949fe9f65a46d6dc39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/io.realm/realm-android-library/2.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="716030a2499afe39ca5b9c8bc09bc868ca372206">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/io.realm-realm-android-library-2.0.2_9e6c22c20a0e5a91cdcb5cfd8bbd56ed81e1b832.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.getkeepsafe.relinker-relinker-1.2.2_b6f6269bdf73eddd2358894e99822717f8632227.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.3.1/14e70f2069fb98dc60346dd24cb7b6a2e321580d/okhttp-urlconnection-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="14e70f2069fb98dc60346dd24cb7b6a2e321580d">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.3.1_d1b49cd716fb2e5125eee662b1d86c69e9cd11d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-integration-1.3_6258ea3496db5fe7c5d18dca1aa829d7bb9a3578.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.3.1/ebca9fdfbef870042a19aec6a5b7a21d72639310/okhttp-ws-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ebca9fdfbef870042a19aec6a5b7a21d72639310">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.3.1_df6ff19600a8d2ce500d3303c57e05bfb771ab0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support.test/runner/0.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test-runner-0.5_531d5dafe59e53e782b6a979e59aaa1c00866141.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.6.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-2.6.5_c37db87e79a59bca6e48e267fa611bcf4a7ebc69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_b0c608a38be6ecaf0fc186887cd2c72717335313.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_4da7c90585d3c1a6556f0fce9da1d18d376451a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi_a0757abf7164dab3c3950a856a347063a431dc19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.1.0_58892793b0e11a158bba75b1016bc9f8e6b35725.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/okhttp-3.3.1_afcb6232d2dc6b67be8f4316c665176a2c06365f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.github.tajchert/WaitingDots/0.3.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3a739a15b87f5b61e03d388d5cfad806afdcff3">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.github.tajchert-WaitingDots-0.3.2_e806ca6e32814f70569d83d8f8b3e776a45ef242.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support.test/exposed-instrumentation-api-publish/0.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test-exposed-instrumentation-api-publish-0.5_3c58ad73a9c03f8d40a0f3beb7639185ad2a3173.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_268dedd04bc3504d2f42d135e554e2486d10efac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-library-1.3_932bce42b71e7f1a03ece33b6de2a21806fbc7d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/me.himanshusoni.chatmessageview/chat-message-view/1.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="565f0eb14f70250a54baaeebf794b52cccc150e8">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/me.himanshusoni.chatmessageview-chat-message-view-1.0.3_99a3e197ed8c502830d397cdd82b7878febf9d80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_28d32310c47ac07aeb35fa83a7b2ea74edaaa567.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.bundles.repackaged/jersey-jsr166e/2.22.2/3ef9c67a5bea4d914a45bd54f3405fa29a368f7a/jersey-jsr166e-2.22.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3ef9c67a5bea4d914a45bd54f3405fa29a368f7a">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/jersey-jsr166e-2.22.2_6bd0e7fb0656f465487481d81cd144cdaab3ea1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_181c13e31bcf70c50544caf91441f1958c4fbc1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_11fe65b9723ada28c4dbc1117ac33d6ca5e7040c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_b1ef08555420755ad04c07aef43d1f92a0d0ff0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-core-1.3_2548776d578d4ac16b6be90663915e799cc91355.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_bd0ccd61ed850d57b319425f0fa032c493c5e279.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_7e519ad4b5f22a2fb6e2ff8484e9e6a08ab44e28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="73591df4ec047e55db9415034d1dfab617fa9f3c">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-25.1.0_d884bb4d7bfe8d6bce688730844594e3bccd1fea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_f6d60005b6fc822ce2f5bada8139d5058c76956f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-core/2.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test.espresso-espresso-core-2.2.2_a00249c16d3541c1889cc1a3d98c673f31fa89ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.14/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-core-2.3.14_e38aee8fe6fc1a02e99f5935565214247cb87848.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_7972b44b0c50b7253fcb8f2eda2ea6ca84d76c73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-idling-resource/2.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test.espresso-espresso-idling-resource-2.2.2_a892b4f294f3ab49252e0c49de874e87e17a24c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.3.1/99ce730034c6f5aaed710d1e0e9df95e8714ed5f/logging-interceptor-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="99ce730034c6f5aaed710d1e0e9df95e8714ed5f">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.3.1_77b2fa09b54656b257111c4803ebde747c3d234c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/androidTest/debug/javax.annotation-api-1.2_35d89e7f3d3f280c121fc93066f96fdc8f1ffa39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_ce7bbb35538a9011842d6ec94b877a34a9dca833.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.android.support/preference-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9bcc5d07e3c05d87798e602ad1e6d2a28ce0782d">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.android.support-preference-v7-25.0.1_b2cf6235c1cc3d2b332a2c168cfd13fbb1b044eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_719639ec0c54e2a1e1032d36f328ab7b09cfed40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/androidTest/debug/javax.inject-1_a773f953b53441c39e4114c3d9c874c1a357757c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.takisoft.fix/preference-v7/25.0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="633643588a572deb831c940072862030aec5fc60">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.takisoft.fix-preference-v7-25.0.1.0_877a80d26c07233fd776274c98b9e572a0db8f15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.10/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-answers-1.3.10_8fd2f391ef525afce81856887209ab78cda3b8a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.github.tajchert/WaitingDots/0.3.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3a739a15b87f5b61e03d388d5cfad806afdcff3">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.github.tajchert-WaitingDots-0.3.2_394a7023ff4e495bac2fb80a8a65d3d97b60e120.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_95166c9a518ea993ca2181e0b24234a172bf95ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_dd6b180bdbdca22c150822faa220387a89427574.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/androidTest/debug/junit-4.12_f7b3be9f43f44b5de398ec70e9fefbf10cddd872.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_6f635d981fe3fffa577de07d611bcdbe1971faa0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.14/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/io.fabric.sdk.android-fabric-1.3.14_407442ec3d542e17104e0b9a03415f8ac0c2a29e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/preference-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9bcc5d07e3c05d87798e602ad1e6d2a28ce0782d">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-preference-v7-25.0.1_807f1705cbba306e8de5b25b11bd3959ac856c9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Documents/MailBotApp/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/home/cc15/Documents/MailBotApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_fe521a4f539306ff3ccc9b927a07d87ed26028a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_ec7acf9607a4c7970e6eb34e64eb906b35c2b36c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/io.realm/android-adapters/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="821de897b9350f9cb17f5f195a59dcf454bdba3d">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/io.realm-android-adapters-1.3.0_900de21668653aacf13e802ce24a3425755a9745.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cc15/Music/susi_android/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.14/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="/home/cc15/Music/susi_android/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-core-2.3.14_b2472f80ddbfac476f61cb1db78cc45311667450.jar" />
+    </item>
+
+</items>

@@ -420,63 +420,68 @@ public class MainActivity extends AppCompatActivity {
                 query = nonDeliveredMessages.getFirst().first;
                 id = nonDeliveredMessages.getFirst().second;
                 nonDeliveredMessages.pop();
+                try {
+                    ConversationService service = new ConversationService("2017-04-19");
+                    service.setUsernameAndPassword("b053dacb-cb93-40a2-aee4-b3c2cedb751f", "UrwZSyeVKtgV");
 
-                ConversationService service = new ConversationService("2017-04-19");
-                service.setUsernameAndPassword("b053dacb-cb93-40a2-aee4-b3c2cedb751f", "UrwZSyeVKtgV");
 
+                    MessageRequest newMessage = new MessageRequest.Builder()
+                            .inputText(query)
+                            // Replace with the context obtained from the initial request
+                            .context(context)
+                            .build();
 
-                MessageRequest newMessage = new MessageRequest.Builder()
-                        .inputText(query)
-                        // Replace with the context obtained from the initial request
-                        .context(context)
-                        .build();
+                    String workspaceId = "f125e325-585c-433c-b460-70d9dab9ec1a";
 
-                String workspaceId = "f125e325-585c-433c-b460-70d9dab9ec1a";
-
-                final MessageResponse response = service
-                        .message(workspaceId, newMessage)
-                        .execute();
-                if(!response.getText().get(0).equals("I'm sorry, I don't understand. Please try again.")) {
-                    context = response.getContext();
-                    Log.v("chirag",response.getText().get(0));
-                }
-
-                System.out.println(response);
-
-                if (response != null ) {
-
-                    runOnUiThread(new Runnable() {
-                        @Override
-                        public void run() {
-                            realm.executeTransactionAsync(new Realm.Transaction() {
-                                @Override
-                                public void execute(Realm bgRealm) {
-                                    try {
-                                        ChatMessage chatMessage = bgRealm.where(ChatMessage.class).equalTo("id", id).findFirst();
-                                        chatMessage.setIsDelivered(true);
-                                    } catch (Exception e) {
-                                        e.printStackTrace();
-                                    }
-                                }});
-                            rvChatFeed.getRecycledViewPool().clear();
-                            recyclerAdapter.notifyItemChanged((int) id);
-                            final String setMessage = response.getText().get(0);
-                            addNewMessage(setMessage, datumList);
-                            if(checkSpeechAlwaysPref())
-                                voiceReply(setMessage);
-                            recyclerAdapter.hideDots();
-                        }
-                    });
-
-                } else {
-
-                    if (!isNetworkConnected()) {
-                        recyclerAdapter.hideDots();
-                        nonDeliveredMessages.addFirst(new Pair(query, id));
-                        Snackbar snackbar = Snackbar.make(coordinatorLayout,
-                                getString(R.string.no_internet_connection), Snackbar.LENGTH_LONG);
-                        snackbar.show();
+                    final MessageResponse response = service
+                            .message(workspaceId, newMessage)
+                            .execute();
+                    if (!response.getText().get(0).equals("I'm sorry, I don't understand. Please try again.")) {
+                        context = response.getContext();
+                        Log.v("chirag", response.getText().get(0));
                     }
+
+                    System.out.println(response);
+
+                    if (response != null) {
+
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                realm.executeTransactionAsync(new Realm.Transaction() {
+                                    @Override
+                                    public void execute(Realm bgRealm) {
+                                        try {
+                                            ChatMessage chatMessage = bgRealm.where(ChatMessage.class).equalTo("id", id).findFirst();
+                                            chatMessage.setIsDelivered(true);
+                                        } catch (Exception e) {
+                                            e.printStackTrace();
+                                        }
+                                    }
+                                });
+                                rvChatFeed.getRecycledViewPool().clear();
+                                recyclerAdapter.notifyItemChanged((int) id);
+                                final String setMessage = response.getText().get(0);
+                                addNewMessage(setMessage, datumList);
+                                if (checkSpeechAlwaysPref())
+                                    voiceReply(setMessage);
+                                recyclerAdapter.hideDots();
+                            }
+                        });
+
+                    } else {
+
+                        if (!isNetworkConnected()) {
+                            recyclerAdapter.hideDots();
+                            nonDeliveredMessages.addFirst(new Pair(query, id));
+                            Snackbar snackbar = Snackbar.make(coordinatorLayout,
+                                    getString(R.string.no_internet_connection), Snackbar.LENGTH_LONG);
+                            snackbar.show();
+                        }
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    addNewMessage("Something went wrong",null);
                 }
 
                 if (isNetworkConnected())

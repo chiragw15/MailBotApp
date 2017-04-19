@@ -53,9 +53,11 @@ import org.chirag.mailbot.com.rest.model.Datum;
 
 import java.util.ArrayList;
 import java.util.Deque;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -92,16 +94,8 @@ public class MainActivity extends AppCompatActivity {
     private int offset = 1;
     private ChatFeedRecyclerAdapter recyclerAdapter;
     private Realm realm;
-    public static String webSearch;
-    private String googlesearch_query = "";
-    private String video_query = "";
     private TextToSpeech textToSpeech;
-    private String[] array;
-    private String timenow;
-    private int reminderQuery;
-    private String reminder;
-    private int count = 0;
-    private static final String[] id = new String[1];
+    private Map<String,Object> context = new HashMap<>();
 
     private AudioManager.OnAudioFocusChangeListener afChangeListener =
             new AudioManager.OnAudioFocusChangeListener() {
@@ -392,7 +386,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void sendMessage(String query, String actual) {
-        webSearch = query;
         Number temp = realm.where(ChatMessage.class).max(getString(R.string.id));
         long id;
         if (temp == null) {
@@ -435,7 +428,7 @@ public class MainActivity extends AppCompatActivity {
                 MessageRequest newMessage = new MessageRequest.Builder()
                         .inputText(query)
                         // Replace with the context obtained from the initial request
-                        //.context(...)
+                        .context(context)
                         .build();
 
                 String workspaceId = "f125e325-585c-433c-b460-70d9dab9ec1a";
@@ -443,6 +436,10 @@ public class MainActivity extends AppCompatActivity {
                 final MessageResponse response = service
                         .message(workspaceId, newMessage)
                         .execute();
+                if(!response.getText().get(0).equals("I'm sorry, I don't understand. Please try again.")) {
+                    context = response.getContext();
+                    Log.v("chirag",response.getText().get(0));
+                }
 
                 System.out.println(response);
 

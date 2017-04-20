@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.media.AudioManager;
 import android.net.ConnectivityManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -410,6 +411,8 @@ public class MainActivity extends AppCompatActivity {
         new computeThread().start();
     }
 
+    MessageResponse response = new MessageResponse();
+
     private synchronized void computeOtherMessage() {
         final String query;
         final long id;
@@ -420,73 +423,116 @@ public class MainActivity extends AppCompatActivity {
                 query = nonDeliveredMessages.getFirst().first;
                 id = nonDeliveredMessages.getFirst().second;
                 nonDeliveredMessages.pop();
-                try {
-                    ConversationService service = new ConversationService("2017-04-19");
-                    service.setUsernameAndPassword("b053dacb-cb93-40a2-aee4-b3c2cedb751f", "UrwZSyeVKtgV");
-
-
-                    MessageRequest newMessage = new MessageRequest.Builder()
-                            .inputText(query)
-                            // Replace with the context obtained from the initial request
-                            .context(context)
-                            .build();
-
-                    String workspaceId = "f125e325-585c-433c-b460-70d9dab9ec1a";
-
-                    final MessageResponse response = service
-                            .message(workspaceId, newMessage)
-                            .execute();
-                    if (!response.getText().get(0).equals("I'm sorry, I don't understand. Please try again.")) {
-                        context = response.getContext();
-                        Log.v("chirag", response.getText().get(0));
-                    }
-
-                    System.out.println(response);
-
-                    if (response != null) {
-
+                try {Log.v("chirag",query);
+                    if(query.trim().equals("n") || query.trim().equals("N")) {
+                    } else if (query.trim().equals("y") || query.trim().equals("Y")){
                         runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                realm.executeTransactionAsync(new Realm.Transaction() {
-                                    @Override
-                                    public void execute(Realm bgRealm) {
-                                        try {
-                                            ChatMessage chatMessage = bgRealm.where(ChatMessage.class).equalTo("id", id).findFirst();
-                                            chatMessage.setIsDelivered(true);
-                                        } catch (Exception e) {
-                                            e.printStackTrace();
-                                        }
-                                    }
-                                });
-                                rvChatFeed.getRecycledViewPool().clear();
-                                recyclerAdapter.notifyItemChanged((int) id);
-                                final String setMessage = response.getText().get(0);
-                                addNewMessage(setMessage, datumList);
-                                if (checkSpeechAlwaysPref())
-                                    voiceReply(setMessage);
-                                recyclerAdapter.hideDots();
-                            }
+                              @Override
+                              public void run() {
+                                  realm.executeTransactionAsync(new Realm.Transaction() {
+                                      @Override
+                                      public void execute(Realm bgRealm) {
+                                          try {
+                                              ChatMessage chatMessage = bgRealm.where(ChatMessage.class).equalTo("id", id).findFirst();
+                                              chatMessage.setIsDelivered(true);
+                                          } catch (Exception e) {
+                                              e.printStackTrace();
+                                          }
+                                      }
+                                  });
+                                  rvChatFeed.getRecycledViewPool().clear();
+                                  recyclerAdapter.notifyItemChanged((int) id);
+                                  recyclerAdapter.hideDots();
+                              }
                         });
+                        composeEmail(response.getText().get(0));
 
                     } else {
+                        ConversationService service = new ConversationService("2017-04-19");
+                        service.setUsernameAndPassword("b053dacb-cb93-40a2-aee4-b3c2cedb751f", "UrwZSyeVKtgV");
 
-                        if (!isNetworkConnected()) {
-                            recyclerAdapter.hideDots();
-                            nonDeliveredMessages.addFirst(new Pair(query, id));
-                            Snackbar snackbar = Snackbar.make(coordinatorLayout,
-                                    getString(R.string.no_internet_connection), Snackbar.LENGTH_LONG);
-                            snackbar.show();
+
+                        MessageRequest newMessage = new MessageRequest.Builder()
+                                .inputText(query)
+                                // Replace with the context obtained from the initial request
+                                .context(context)
+                                .build();
+
+                        String workspaceId = "f125e325-585c-433c-b460-70d9dab9ec1a";
+
+                        response = service
+                                .message(workspaceId, newMessage)
+                                .execute();
+                        if (!response.getText().get(0).equals("I'm sorry, I don't understand. Please try again.")) {
+                            context = response.getContext();
+                            Log.v("chirag", response.getText().get(0));
+                        }
+
+                        System.out.println(response);
+
+                        if (response != null) {
+
+                            runOnUiThread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    realm.executeTransactionAsync(new Realm.Transaction() {
+                                        @Override
+                                        public void execute(Realm bgRealm) {
+                                            try {
+                                                ChatMessage chatMessage = bgRealm.where(ChatMessage.class).equalTo("id", id).findFirst();
+                                                chatMessage.setIsDelivered(true);
+                                            } catch (Exception e) {
+                                                e.printStackTrace();
+                                            }
+                                        }
+                                    });
+                                    rvChatFeed.getRecycledViewPool().clear();
+                                    recyclerAdapter.notifyItemChanged((int) id);
+                                    final String setMessage = response.getText().get(0);
+                                    if (setMessage == null || setMessage.equals(""))
+                                        addNewMessage("Something went wrong, please try again.", null);
+                                    else {
+                                        if (setMessage.contains("Respected")) {
+                                            addNewMessage(setMessage + "\n\n" + "Do you want to send the email(y/n)", datumList);
+                                        } else {
+                                            addNewMessage(setMessage, datumList);
+                                        }
+                                    }
+                                    if (checkSpeechAlwaysPref())
+                                        voiceReply(setMessage);
+                                    recyclerAdapter.hideDots();
+                                }
+                            });
+
+                        } else {
+
+                            if (!isNetworkConnected()) {
+                                recyclerAdapter.hideDots();
+                                nonDeliveredMessages.addFirst(new Pair(query, id));
+                                Snackbar snackbar = Snackbar.make(coordinatorLayout,
+                                        getString(R.string.no_internet_connection), Snackbar.LENGTH_LONG);
+                                snackbar.show();
+                            }
                         }
                     }
                 } catch (Exception e) {
                     e.printStackTrace();
-                    addNewMessage("Something went wrong",null);
+                    recyclerAdapter.hideDots();
                 }
 
                 if (isNetworkConnected())
                     computeOtherMessage();
             }
+        }
+    }
+
+    public void composeEmail(String email) {
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse("mailto:"));
+        intent.putExtra(Intent.EXTRA_SUBJECT, "Leave Email");
+        intent.putExtra(Intent.EXTRA_TEXT, email);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
         }
     }
 
